@@ -79,7 +79,7 @@
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction clckFunc() {\n\tconsole.log(this);\n\tthis.textContent = this.id;\n}\n\ndocument.querySelector('#bt1').addEventListener('click', clckFunc);\ndocument.querySelector('#bt2').addEventListener('click', function (_ref) {\n\tvar target = _ref.target;\n\treturn clckFunc.call(target);\n});\n\n//# sourceURL=webpack:///./src/index.mjs?");
+eval("__webpack_require__.r(__webpack_exports__);\n// Component Author\nvar authorWrap = document.createElement('h4');\nauthorWrap.id = 'author';\nauthorWrap.title = 'GossJS';\nvar author = document.body.appendChild(authorWrap);\nauthor.textContent = 'Danil Rostov';\n\nfunction clckFunc() {\n\tconsole.log(this);\n\tthis.textContent = this.id;\n}\n\n// Component Buttons\ndocument.querySelector('#bt1').addEventListener('click', clckFunc);\ndocument.querySelector('#bt2').addEventListener('click', function (_ref) {\n\tvar target = _ref.target;\n\treturn clckFunc.call(target);\n});\n\n//# sourceURL=webpack:///./src/index.mjs?");
 
 /***/ })
 
