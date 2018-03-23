@@ -6,7 +6,7 @@
 
 ---
 
-Деплой - https://YellowishLawngreenFeed--DanilRostov.repl.co
+Деплой на repl.it - https://YellowishLawngreenFeed--DanilRostov.repl.co
 
 ---
 Первая часть лабораторной находится в другой ветке
