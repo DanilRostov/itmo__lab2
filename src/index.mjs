@@ -1,3 +1,7 @@
-import mixin from './mixin';
+function clckFunc() {
+	console.log( this );
+	this.textContent = this.id;
+}
 
-console.log( 6::mixin() );
+document.querySelector('#bt1').addEventListener( 'click', clckFunc );
+document.querySelector('#bt2').addEventListener( 'click', ( { target } ) => target::clckFunc() );
